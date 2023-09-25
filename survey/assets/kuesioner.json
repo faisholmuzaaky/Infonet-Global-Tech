@@ -1,0 +1,134 @@
+{
+   "id": 1,
+   "name": "Survey kondisi crusher",
+   "keterangan": "Test survey",
+   "kategori": [
+      {
+         "id": 1,
+         "no": 1,
+         "kategori": "Crusher",
+         "pertanyaan": [
+            {
+               "id": 1268,
+               "no": 1,
+               "pertanyaan": "Crusher 1 - Pastikan tidak ada kebocoran pada hose flexible 123",
+               "tipe": "ya/tidak",
+               "pilihan": {
+                  "pilihan": [
+                     {
+                        "status": "green",
+                        "keterangan": ""
+                     }
+                  ],
+                  "petunjuk": "",
+                  "lampiran_foto": "tidak"
+               },
+               "angka": {
+                  "status": "green",
+                  "from": 0,
+                  "to": 70,
+                  "petunjuk": "",
+                  "lampiran_foto": "wajib"
+               },
+               "yatidak": {
+                  "ya": "green",
+                  "tidak": "red",
+                  "petunjuk": "Keterangan petunjuk",
+                  "lampiran_foto": "wajib"
+               }
+            },
+            {
+               "id": 1269,
+               "no": 2,
+               "pertanyaan": "Crusher 1 - Pastikan tidak ada kebocoran pada hose flexible",
+               "tipe": "pilihan",
+               "pilihan": {
+                  "pilihan": [
+                     {
+                        "status": "green",
+                        "keterangan": "input green"
+                     },
+                     {
+                        "status": "green",
+                        "keterangan": "input red"
+                     }
+                  ],
+                  "petunjuk": "petunjuk penggunaan",
+                  "lampiran_foto": "tidak"
+               },
+               "angka": {
+                  "status": "green",
+                  "from": 1,
+                  "to": 1,
+                  "petunjuk": "",
+                  "lampiran_foto": "tidak"
+               },
+               "yatidak": {
+                  "ya": "green",
+                  "tidak": "red",
+                  "petunjuk": "",
+                  "lampiran_foto": "opsional"
+               }
+            },
+            {
+               "id": 1270,
+               "no": 3,
+               "pertanyaan": "Crusher 1 - Cek temperatur motor power pack crusher 1. . . . . . .ºC   ( Std. Suhu < 60°C )",
+               "tipe": "isian angka",
+               "pilihan": {
+                  "pilihan": [
+                     {
+                        "status": "green",
+                        "keterangan": ""
+                     }
+                  ],
+                  "petunjuk": "",
+                  "lampiran_foto": "tidak"
+               },
+               "angka": {
+                  "status": "green",
+                  "from": 0,
+                  "to": 60,
+                  "petunjuk": "petunjuk penggunaan",
+                  "lampiran_foto": "opsional"
+               },
+               "yatidak": {
+                  "ya": "green",
+                  "tidak": "red",
+                  "petunjuk": "",
+                  "lampiran_foto": "wajib"
+               }
+            },
+            {
+               "id": 1271,
+               "no": 4,
+               "pertanyaan": "Crusher 1 - Cek temperatur motor power pack crusher 1. . . . . . .ºC   ( Std. Suhu < 70°C )",
+               "tipe": "isian angka",
+               "pilihan": {
+                  "pilihan": [
+                     {
+                        "status": "green",
+                        "keterangan": ""
+                     }
+                  ],
+                  "petunjuk": "",
+                  "lampiran_foto": "tidak"
+               },
+               "angka": {
+                  "status": "green",
+                  "from": 1,
+                  "to": 70,
+                  "petunjuk": "petunjuk penggunaan",
+                  "lampiran_foto": "tidak"
+               },
+               "yatidak": {
+                  "ya": "green",
+                  "tidak": "red",
+                  "petunjuk": "",
+                  "lampiran_foto": "wajib"
+               }
+            }
+         ]
+      }
+   ]
+}
